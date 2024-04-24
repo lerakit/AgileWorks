@@ -1,0 +1,17 @@
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\bin\Debug\net8.0\DAL.EF.deps.json
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\bin\Debug\net8.0\DAL.EF.runtimeconfig.json
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\bin\Debug\net8.0\DAL.EF.dll
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\bin\Debug\net8.0\DAL.EF.pdb
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\bin\Debug\net8.0\Domain.dll
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\bin\Debug\net8.0\Domain.pdb
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.csproj.AssemblyReference.cache
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.AssemblyInfoInputs.cache
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.AssemblyInfo.cs
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.csproj.CoreCompileInputs.cache
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.csproj.CopyComplete
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.dll
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\refint\DAL.EF.dll
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.pdb
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\DAL.EF.genruntimeconfig.cache
+C:\Users\Lennart\RiderProjects\AgileWorks\DAL.EF\obj\Debug\net8.0\ref\DAL.EF.dll

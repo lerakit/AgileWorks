@@ -1,0 +1,51 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Requests[0].Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Requests[0].Deadline)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Requests[0].AddedAt)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Requests[0].Finished)
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+        @foreach (var request in Model.Requests)
+        {
+            <tr>
+                <td style="color: @(request.Deadline <= DateTime.Now.AddHours(1) ? "red" : "inherit")">
+                    @request.Description
+                </td>
+                <td  style="color: @(request.Deadline <= DateTime.Now.AddHours(1) ? "red" : "inherit")">
+                    @request.Deadline
+                </td>
+                <td style="color: @(request.Deadline <= DateTime.Now.AddHours(1) ? "red" : "inherit")">
+                    @request.AddedAt
+                </td>
+                <td style="color: @(request.Deadline <= DateTime.Now.AddHours(1) ? "red" : "inherit")">
+                    @request.Finished
+                </td>
+                <td>
+                    <form asp-page-handler="MarkAsFinished" asp-route-id="@request.Id">
+                        <button type="submit" class="btn btn-primary">Mark as finished</button>
+                    </form>
+                </td>
+            </tr>
+        }
+        </tbody>
+</table>
